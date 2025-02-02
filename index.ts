@@ -1,4 +1,4 @@
-import { Drug, Fervex, HerbalTea, MagicPill, Pharmacy } from "./pharmacy";
+import { Dafalgan, Drug, Fervex, HerbalTea, MagicPill, Pharmacy } from "./pharmacy";
 
 import fs from "fs";
 
@@ -7,6 +7,7 @@ const drugs = [
   new HerbalTea("Herbal Tea", 10, 5),
   new Fervex("Fervex", 12, 35),
   new MagicPill("Magic Pill", 15, 40),
+  new Dafalgan("Dafalgan", 20, 30)
 ];
 const pharmacy = new Pharmacy(drugs);
 

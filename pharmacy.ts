@@ -52,6 +52,14 @@ class MagicPill extends Drug {
   updateBenefit(): void {}
 }
 
+class Dafalgan extends Drug {
+  updateBenefit(): void {
+    this.benefit -= this.expiresIn <= 0 ? 4 : 2;
+    this.checkBenefit();
+    this.expiresIn -= 1;
+  }
+}
+
 class Pharmacy {
   drugs: Drug[];
 
@@ -67,7 +75,7 @@ class Pharmacy {
   }
 }
 
-export { Drug, Pharmacy, HerbalTea, Fervex, MagicPill };
+export { Drug, Pharmacy, HerbalTea, Fervex, Dafalgan, MagicPill };
 
 // export class Pharmacy {
 //   constructor(drugs = []) {

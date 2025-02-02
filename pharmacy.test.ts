@@ -1,4 +1,4 @@
-import { Drug, Fervex, HerbalTea, MagicPill, Pharmacy } from "./pharmacy";
+import { Dafalgan, Drug, Fervex, HerbalTea, MagicPill, Pharmacy } from "./pharmacy";
 
 describe("Pharmacy", () => {
   describe("Doliprane", () => {
@@ -103,5 +103,31 @@ describe("Pharmacy", () => {
         new Fervex("Fervex", 9, 50),
       ]);
     });
-  })
+  });
+
+  describe("Dafalgan", () => {
+    it("should decrease benefit by 2 when the drug is not expired", () => {
+      const drug = new Dafalgan("Dafalgan", 10, 20);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new Dafalgan("Dafalgan", 9, 18),
+      ]);
+    });
+
+    it("should decrease benefit by 4 when the drug is expired", () => {
+      const drug = new Dafalgan("Dafalgan", 0, 20);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new Dafalgan("Dafalgan", -1, 16),
+      ]);
+    });
+
+    it("should ensure that benefit never becomes negative", () => {
+      const drug = new Dafalgan("Dafalgan", 10, 1);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new Dafalgan("Dafalgan", 9, 0),
+      ]);
+    });
+  });
 });
