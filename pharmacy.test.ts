@@ -1,4 +1,4 @@
-import { Drug, MagicPill, Pharmacy } from "./pharmacy";
+import { Drug, HerbalTea, MagicPill, Pharmacy } from "./pharmacy";
 
 describe("Pharmacy", () => {
   describe("Doliprane", () => {
@@ -23,6 +23,32 @@ describe("Pharmacy", () => {
       const pharmacy = new Pharmacy([drug]);
       expect(pharmacy.updateBenefitValue()).toEqual([
         new Drug("Doliprane", 9, 0),
+      ]);
+    });
+  });
+
+  describe("Herbal Tea", () => {
+    it("should increase benefit by 1 and decrease expiresIn by 1 when not expired", () => {
+      const drug = new HerbalTea("Herbal Tea", 10, 5);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new HerbalTea("Herbal Tea", 9, 6),
+      ]);
+    });
+
+    it("should increase benefit by 2 when the drug is expired", () => {
+      const drug = new HerbalTea("Herbal Tea", 0, 20);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new HerbalTea("Herbal Tea", -1, 22),
+      ]);
+    });
+
+    it("should ensure that benefit never exceeds 50", () => {
+      const drug = new HerbalTea("Herbal Tea", 10, 55);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new HerbalTea("Herbal Tea", 9, 50),
       ]);
     });
   });

@@ -19,7 +19,15 @@ class Drug {
 
   updateBenefit(): void {
     this.benefit -= this.expiresIn <= 0 ? 2 : 1;
-    this.checkBenefit()
+    this.checkBenefit();
+    this.expiresIn -= 1;
+  }
+}
+
+class HerbalTea extends Drug {
+  updateBenefit(): void {
+    this.benefit += this.expiresIn <= 0 ? 2 : 1;
+    this.checkBenefit();
     this.expiresIn -= 1;
   }
 }
@@ -43,7 +51,7 @@ class Pharmacy {
   }
 }
 
-export { Drug, Pharmacy, MagicPill };
+export { Drug, Pharmacy, HerbalTea, MagicPill };
 
 // export class Pharmacy {
 //   constructor(drugs = []) {
