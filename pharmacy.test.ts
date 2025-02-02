@@ -1,9 +1,29 @@
 import { Drug, Pharmacy } from "./pharmacy";
 
 describe("Pharmacy", () => {
-  it("should decrease the benefit and expiresIn", () => {
-    expect(new Pharmacy([new Drug("test", 2, 3)]).updateBenefitValue()).toEqual(
-      [new Drug("test", 1, 2)],
-    );
+  describe("Doliprane", () => {
+    it("should decrease benefit by 1 and expiresIn by 1 when the drug is not expired", () => {
+      const drug = new Drug("Doliprane", 10, 20);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new Drug("Doliprane", 9, 19),
+      ]);
+    });
+
+    it("should decrease benefit by 2 when the drug is expired", () => {
+      const drug = new Drug("Doliprane", 0, 20);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new Drug("Doliprane", -1, 18),
+      ]);
+    });
+
+    it("should verify is benefit never becomes negative", () => {
+      const drug = new Drug("Doliprane", 10, 0);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new Drug("Doliprane", 9, 0),
+      ]);
+    });
   });
 });
