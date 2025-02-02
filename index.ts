@@ -1,6 +1,6 @@
-import { Dafalgan, Drug, Fervex, HerbalTea, MagicPill, Pharmacy } from "./pharmacy";
-
 import fs from "fs";
+
+import { Dafalgan, Drug, Fervex, HerbalTea, MagicPill, Pharmacy } from "./pharmacy";
 
 const drugs = [
   new Drug("Doliprane", 20, 30),
