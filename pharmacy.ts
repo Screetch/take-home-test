@@ -1,4 +1,4 @@
-export class Drug {
+class Drug {
   name: string;
   expiresIn: number;
   benefit: number;
@@ -24,7 +24,11 @@ export class Drug {
   }
 }
 
-export class Pharmacy {
+class MagicPill extends Drug {
+  updateBenefit(): void {}
+}
+
+class Pharmacy {
   drugs: Drug[];
 
   constructor(drugs: Drug[] = []) {
@@ -32,10 +36,14 @@ export class Pharmacy {
   }
 
   updateBenefitValue(): Drug[] {
-    this.drugs[0].updateBenefit()
+    for (const drug of this.drugs) {
+      drug.updateBenefit();
+    }
     return this.drugs;
   }
 }
+
+export { Drug, Pharmacy, MagicPill };
 
 // export class Pharmacy {
 //   constructor(drugs = []) {

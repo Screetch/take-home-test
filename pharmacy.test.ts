@@ -1,4 +1,4 @@
-import { Drug, Pharmacy } from "./pharmacy";
+import { Drug, MagicPill, Pharmacy } from "./pharmacy";
 
 describe("Pharmacy", () => {
   describe("Doliprane", () => {
@@ -23,6 +23,16 @@ describe("Pharmacy", () => {
       const pharmacy = new Pharmacy([drug]);
       expect(pharmacy.updateBenefitValue()).toEqual([
         new Drug("Doliprane", 9, 0),
+      ]);
+    });
+  });
+
+  describe("Magic Pill", () => {
+    it("should not decrease or increase benefit and expiresIn", () => {
+      const drug = new MagicPill("Magic Pill", 15, 40);
+      const pharmacy = new Pharmacy([drug]);
+      expect(pharmacy.updateBenefitValue()).toEqual([
+        new MagicPill("Magic Pill", 15, 40),
       ]);
     });
   });
