@@ -8,6 +8,20 @@ export class Drug {
     this.expiresIn = expiresIn;
     this.benefit = benefit;
   }
+  
+  checkBenefit(): void {
+    if (this.benefit < 0) {
+      this.benefit = 0;
+    } else if (this.benefit > 50) {
+      this.benefit = 50;
+    }
+  }
+
+  updateBenefit(): void {
+    this.benefit -= this.expiresIn <= 0 ? 2 : 1;
+    this.checkBenefit()
+    this.expiresIn -= 1;
+  }
 }
 
 export class Pharmacy {
@@ -17,7 +31,8 @@ export class Pharmacy {
     this.drugs = drugs;
   }
 
-  updateBenefitValue() {
+  updateBenefitValue(): Drug[] {
+    this.drugs[0].updateBenefit()
     return this.drugs;
   }
 }

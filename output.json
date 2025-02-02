@@ -3,8 +3,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 19,
+        "benefit": 29
       },
       {
         "name": "Herbal Tea",
@@ -25,8 +25,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 18,
+        "benefit": 28
       },
       {
         "name": "Herbal Tea",
@@ -47,8 +47,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 17,
+        "benefit": 27
       },
       {
         "name": "Herbal Tea",
@@ -69,8 +69,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 16,
+        "benefit": 26
       },
       {
         "name": "Herbal Tea",
@@ -91,8 +91,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 15,
+        "benefit": 25
       },
       {
         "name": "Herbal Tea",
@@ -113,8 +113,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 14,
+        "benefit": 24
       },
       {
         "name": "Herbal Tea",
@@ -135,8 +135,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 13,
+        "benefit": 23
       },
       {
         "name": "Herbal Tea",
@@ -157,8 +157,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 12,
+        "benefit": 22
       },
       {
         "name": "Herbal Tea",
@@ -179,8 +179,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 11,
+        "benefit": 21
       },
       {
         "name": "Herbal Tea",
@@ -201,8 +201,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 10,
+        "benefit": 20
       },
       {
         "name": "Herbal Tea",
@@ -223,8 +223,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 9,
+        "benefit": 19
       },
       {
         "name": "Herbal Tea",
@@ -245,8 +245,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 8,
+        "benefit": 18
       },
       {
         "name": "Herbal Tea",
@@ -267,8 +267,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 7,
+        "benefit": 17
       },
       {
         "name": "Herbal Tea",
@@ -289,8 +289,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 6,
+        "benefit": 16
       },
       {
         "name": "Herbal Tea",
@@ -311,8 +311,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 5,
+        "benefit": 15
       },
       {
         "name": "Herbal Tea",
@@ -333,8 +333,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 4,
+        "benefit": 14
       },
       {
         "name": "Herbal Tea",
@@ -355,8 +355,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 3,
+        "benefit": 13
       },
       {
         "name": "Herbal Tea",
@@ -377,8 +377,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 2,
+        "benefit": 12
       },
       {
         "name": "Herbal Tea",
@@ -399,8 +399,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 1,
+        "benefit": 11
       },
       {
         "name": "Herbal Tea",
@@ -421,8 +421,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 0,
+        "benefit": 10
       },
       {
         "name": "Herbal Tea",
@@ -443,8 +443,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -1,
+        "benefit": 8
       },
       {
         "name": "Herbal Tea",
@@ -465,8 +465,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -2,
+        "benefit": 6
       },
       {
         "name": "Herbal Tea",
@@ -487,8 +487,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -3,
+        "benefit": 4
       },
       {
         "name": "Herbal Tea",
@@ -509,8 +509,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -4,
+        "benefit": 2
       },
       {
         "name": "Herbal Tea",
@@ -531,8 +531,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -5,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
@@ -553,8 +553,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -6,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
@@ -575,8 +575,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -7,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
@@ -597,8 +597,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -8,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
@@ -619,8 +619,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -9,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
@@ -641,8 +641,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -10,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
