@@ -12,6 +12,11 @@
         "benefit": 6
       },
       {
+        "name": "Fervex",
+        "expiresIn": 11,
+        "benefit": 36
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -27,6 +32,11 @@
         "name": "Herbal Tea",
         "expiresIn": 8,
         "benefit": 7
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": 10,
+        "benefit": 37
       },
       {
         "name": "Magic Pill",
@@ -46,6 +56,11 @@
         "benefit": 8
       },
       {
+        "name": "Fervex",
+        "expiresIn": 9,
+        "benefit": 39
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -63,6 +78,11 @@
         "benefit": 9
       },
       {
+        "name": "Fervex",
+        "expiresIn": 8,
+        "benefit": 41
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -78,6 +98,11 @@
         "name": "Herbal Tea",
         "expiresIn": 5,
         "benefit": 10
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": 7,
+        "benefit": 43
       },
       {
         "name": "Magic Pill",
@@ -97,6 +122,11 @@
         "benefit": 11
       },
       {
+        "name": "Fervex",
+        "expiresIn": 6,
+        "benefit": 45
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -112,6 +142,11 @@
         "name": "Herbal Tea",
         "expiresIn": 3,
         "benefit": 12
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": 5,
+        "benefit": 47
       },
       {
         "name": "Magic Pill",
@@ -131,6 +166,11 @@
         "benefit": 13
       },
       {
+        "name": "Fervex",
+        "expiresIn": 4,
+        "benefit": 50
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -146,6 +186,11 @@
         "name": "Herbal Tea",
         "expiresIn": 1,
         "benefit": 14
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": 3,
+        "benefit": 50
       },
       {
         "name": "Magic Pill",
@@ -165,6 +210,11 @@
         "benefit": 15
       },
       {
+        "name": "Fervex",
+        "expiresIn": 2,
+        "benefit": 50
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -180,6 +230,11 @@
         "name": "Herbal Tea",
         "expiresIn": -1,
         "benefit": 17
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": 1,
+        "benefit": 50
       },
       {
         "name": "Magic Pill",
@@ -199,6 +254,11 @@
         "benefit": 19
       },
       {
+        "name": "Fervex",
+        "expiresIn": 0,
+        "benefit": 50
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -214,6 +274,11 @@
         "name": "Herbal Tea",
         "expiresIn": -3,
         "benefit": 21
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": -1,
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
@@ -233,6 +298,11 @@
         "benefit": 23
       },
       {
+        "name": "Fervex",
+        "expiresIn": -2,
+        "benefit": 0
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -248,6 +318,11 @@
         "name": "Herbal Tea",
         "expiresIn": -5,
         "benefit": 25
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": -3,
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
@@ -267,6 +342,11 @@
         "benefit": 27
       },
       {
+        "name": "Fervex",
+        "expiresIn": -4,
+        "benefit": 0
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -282,6 +362,11 @@
         "name": "Herbal Tea",
         "expiresIn": -7,
         "benefit": 29
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": -5,
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
@@ -301,6 +386,11 @@
         "benefit": 31
       },
       {
+        "name": "Fervex",
+        "expiresIn": -6,
+        "benefit": 0
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -316,6 +406,11 @@
         "name": "Herbal Tea",
         "expiresIn": -9,
         "benefit": 33
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": -7,
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
@@ -335,6 +430,11 @@
         "benefit": 35
       },
       {
+        "name": "Fervex",
+        "expiresIn": -8,
+        "benefit": 0
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -350,6 +450,11 @@
         "name": "Herbal Tea",
         "expiresIn": -11,
         "benefit": 37
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": -9,
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
@@ -369,6 +474,11 @@
         "benefit": 39
       },
       {
+        "name": "Fervex",
+        "expiresIn": -10,
+        "benefit": 0
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -384,6 +494,11 @@
         "name": "Herbal Tea",
         "expiresIn": -13,
         "benefit": 41
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": -11,
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
@@ -403,6 +518,11 @@
         "benefit": 43
       },
       {
+        "name": "Fervex",
+        "expiresIn": -12,
+        "benefit": 0
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -418,6 +538,11 @@
         "name": "Herbal Tea",
         "expiresIn": -15,
         "benefit": 45
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": -13,
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
@@ -437,6 +562,11 @@
         "benefit": 47
       },
       {
+        "name": "Fervex",
+        "expiresIn": -14,
+        "benefit": 0
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -452,6 +582,11 @@
         "name": "Herbal Tea",
         "expiresIn": -17,
         "benefit": 49
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": -15,
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
@@ -471,6 +606,11 @@
         "benefit": 50
       },
       {
+        "name": "Fervex",
+        "expiresIn": -16,
+        "benefit": 0
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -488,6 +628,11 @@
         "benefit": 50
       },
       {
+        "name": "Fervex",
+        "expiresIn": -17,
+        "benefit": 0
+      },
+      {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
@@ -503,6 +648,11 @@
         "name": "Herbal Tea",
         "expiresIn": -20,
         "benefit": 50
+      },
+      {
+        "name": "Fervex",
+        "expiresIn": -18,
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
